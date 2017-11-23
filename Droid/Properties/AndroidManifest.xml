@@ -9,6 +9,6 @@
 	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 	<uses-permission android:name="android.permission.INTERNET" />
 	<application android:label="OptGeoMediator">
-		<meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyBpCq1tVZJe2eX4kFYgTj4qNzrh-eVLBsg" />
+		<meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="" />
 	</application>
 </manifest>
