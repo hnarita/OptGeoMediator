@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="OptGeoMediator.ActionPage">
     <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
-        <Label Text="Hello ActionPage" FontSize="Large" />
-        <Button WidthRequest="100" HeightRequest="100" />
+        <Frame HorizontalOptions="Center" VerticalOptions="Center" Padding="20" OutlineColor="#fac">
+            <Label Text="写真が取れたらいいな" FontSize="Large" HeightRequest="300" />
+        </Frame>
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center" Orientation="Horizontal">
+            <Button Text="絵文字" />
+            <Button Text="絵文字" />
+        </StackLayout>
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center" Orientation="Horizontal">
+            <Button Text="ジャンル" />
+            <Button Text="ジャンル" />
+        </StackLayout>
+        <Button Text="戻る" WidthRequest="100" FontSize="Small" Clicked="OnClicked" />
     </StackLayout>
 
 </ContentPage>

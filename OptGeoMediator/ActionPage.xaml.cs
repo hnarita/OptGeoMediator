@@ -10,6 +10,12 @@ namespace OptGeoMediator
         public ActionPage()
         {
             InitializeComponent();
+
+
+        }
+
+        public void OnClicked(object sender, EventArgs args){
+            this.Navigation.PopModalAsync();
         }
     }
 }
