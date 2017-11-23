@@ -12,7 +12,7 @@ namespace OptGeoMediator
         {
             map = new Map
             {
-                //IsShowingUser = true,
+                IsShowingUser = true,
                 HeightRequest = 100,
                 WidthRequest = 960,
                 VerticalOptions = LayoutOptions.FillAndExpand
